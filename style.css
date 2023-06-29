@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: linear-gradient(100deg,#58d9d7,#dddb51); */
+    background-image: url("https://images.pexels.com/photos/3299/postit-scrabble-to-do.jpg?auto=compress&cs=tinysrgb&w=1560&h=1050&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.calendar{
+    height: 50px;
+    width: 50px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px;
+}
+h1{
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+    font-size: 2.5rem;
+    font-family: "Raleway",sans-serif;
+}
+header,form{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+input{
+    padding: 0.6rem;
+    width: 30%;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    background-color: #d8e7e4;
+}
+button{
+    padding: 0.4rem;
+    border: none;
+    border-radius: 15px;
+    margin-left: 5px;
+    outline: none;
+    background-color: #aedbd2;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+.lists{
+    
+        background-color: #d8e7e4 ;
+        color:black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem;
+        border-radius: 7px;
+    }
+.list-group{
+    list-style: none;
+    width: 50%;
+}
+
+.lists li{
+    flex: 1;
+}
+
+.add-list{
+    padding: 0rem 0.8rem;
+}
+.check{
+    background-color: blue;
+    text-decoration: line-through ;
+}
+
+#search-input{
+    width: 0rem;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.fa-search{
+    font-size: 1.2rem;
+    
+}
+
+.expand{
+    background-color: #d8e7e4;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.expand .but{
+    float: right;
+}
+
+.expand #search-input{
+    width: 10rem;
+    transition: 0.5s;
+}
+
+
+.remove{
+    display: none;
+}
